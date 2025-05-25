@@ -57,8 +57,8 @@ import math
 
 
 
-#a = np.array([[-4,6,8], [9, 3, 1], [1, 8, 5]])
-#b = np.array([[11,16,18], [90, 37, 81], [61, 48, 75]])
+# a = np.array([[-4,6,8], [9, 3, 1], [1, 8, 5]])
+# b = np.array([[11,16,18], [90, 37, 81], [61, 48, 75]])
 
 
 
@@ -72,18 +72,18 @@ import math
 # Write a NumPy function to sort the array 'a' in descending order along axis=0
 
 
-#def sort_array_flat(a):
+# def sort_array_flat(a):
 #    return np.sort(a, axis=None)
-#def sort_array_axis0(a):
+# def sort_array_axis0(a):
 #    return np.sort(a, axis=0)
-#def sort_array_axis1(a):
+# def sort_array_axis1(a):
 #    return np.sort(a, axis=1)
-#def sort_array_axis0_descending(a):
+# def sort_array_axis0_descending(a):
 #    return -np.sort(-a, axis=0)
-#print("\nSorted (Flattened):\n", sort_array_flat(a))
-#print("\nSorted along axis=0:\n", sort_array_axis0(a))
-#print("\nSorted along axis=1:\n", sort_array_axis1(a))
-#print("\nSorted along axis=0 (Descending):\n", sort_array_axis0_descending(a))
+# print("\nSorted (Flattened):\n", sort_array_flat(a))
+# print("\nSorted along axis=0:\n", sort_array_axis0(a))
+# print("\nSorted along axis=1:\n", sort_array_axis1(a))
+# print("\nSorted along axis=0 (Descending):\n", sort_array_axis0_descending(a))
 
 
 
@@ -111,7 +111,7 @@ import math
 
 # Write a NumPy function to concatenate the arrays 'a' and 'b' along axis = 0
 
-#def concatenate_flat(a, b):
+# def concatenate_flat(a, b):
 #     return np.concatenate((a.flatten(), b.flatten()))
 
 # def concatenate_axis0(a, b):
@@ -214,7 +214,7 @@ import math
 #     return array[array > 4]
 
 # print("Values > 4:\n", select_greater_than_4(a))
-# Select values > 4 and divisible by 2
+
 # def select_greater_than_4_and_even(array):
 #     return array[(array > 4) & (array % 2 == 0)]
 # print("Values > 4 and divisible by 2:\n", select_greater_than_4_and_even(a))
@@ -232,6 +232,7 @@ import math
 #     return incremented
 # result = copy_and_increment(a)
 # print("Copied and Incremented Array:\n", result)
+
 
 
 
@@ -280,7 +281,8 @@ import math
 
 # Write a Pandas function to find the mean, median and standard deviation of column 3.
 
-# df = pd.DataFrame(iris_2d, columns=['sepal_length', 'sepal_width', 'petal_length', 'petal_width'])
+# df = pd.DataFrame(iris_2d, columns=['sepal_length', 'sepal_width', 'petal_length'
+# , 'petal_width'])
 
 # def column_stats(df):
 #     col = df.columns[2]  
@@ -332,6 +334,7 @@ import math
 
 
 
+
 #Let x be an array [1, 2, 3, ..., 9]. Split x into 3 arrays, each of which has 4, 2, and 3 elements in the original order.
 
 # x = np.arange(1, 10)  
@@ -371,9 +374,9 @@ import math
 
 
 
-# url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
-# iris = np.genfromtxt(url, delimiter=',', dtype='object')
-# names = ('sepallength', 'sepalwidth', 'petallength', 'petalwidth', 'species')
+url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+iris = np.genfromtxt(url, delimiter=',', dtype='object')
+names = ('sepallength', 'sepalwidth', 'petallength', 'petalwidth', 'species')
 
 
 
@@ -399,7 +402,7 @@ import math
 
 # iris_df['petal_length_bin'] = iris_df['petallength'].apply(petal_length_bin)
 
-# print(iris_df[['petallength', 'petal_length_bin']].head(10))
+# print(iris_df[['petallength', 'petal_length_bin']].head(99))
 
 
 
