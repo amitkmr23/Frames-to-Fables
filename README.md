@@ -31,16 +31,17 @@ Convolution Neural Networks:
 
 ## Week 3
 Recurrent Neural Networks:
--https://www.youtube.com/watch?v=4KpRP-YUw6c&list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn&index=55&ab_channel=CampusX(watch all videos starting from this video i.e video no-55 to video no-60).
+
+ -https://www.youtube.com/watch?v=4KpRP-YUw6c&list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn&index=55&ab_channel=CampusX(watch all videos starting from this video i.e video no-55 to video no-60).
 
 
  Above videos are too long so you can also refer resources below:
--https://www.geeksforgeeks.org/introduction-to-recurrent-neural-network/
--https://www.youtube.com/watch?v=dqoEU9Ac3ek&t=2908s&ab_channel=AlexanderAmini
+ -https://www.geeksforgeeks.org/introduction-to-recurrent-neural-network/
+ -https://www.youtube.com/watch?v=dqoEU9Ac3ek&t=2908s&ab_channel=AlexanderAmini
 
 Long Short Term Memory:
--https://www.youtube.com/watch?v=z7IPBg6MyrU&list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn&index=61&ab_channel=CampusX(watch all videos starting from this video i.e video no-61 to video no-63).
+ -https://www.youtube.com/watch?v=z7IPBg6MyrU&list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn&index=61&ab_channel=CampusX(watch all videos starting from this video i.e video no-61 to video no-63).
 
  Above videos are too long so you can also refer resources below:
--https://colah.github.io/posts/2015-08-Understanding-LSTMs/
--https://www.youtube.com/watch?v=rdkIOM78ZPk&ab_channel=KrishNaik
+ -https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+ -https://www.youtube.com/watch?v=rdkIOM78ZPk&ab_channel=KrishNaik
